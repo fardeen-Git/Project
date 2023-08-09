@@ -17,8 +17,7 @@ pipeline {
                 script {
                     // Checkout the project from GitHub
                     git branch: 'main',
-                    credentialsId: githubCredential,
-                    url: 'https://github.com/niteshsharma99/Emp-Portal-Devops-Project.git'
+                    url: 'https://github.com/fardeen-Git/Project.git'
                 }
             }
         }
