@@ -2,9 +2,8 @@ def img
 
 pipeline {
     environment {
-        registry = "nitesh99sharma/emp-portal-project"
+        registry = "fardeen02/project_devops"
         registryCredential = 'DOCKERHUB'
-        githubCredential = 'GitHub-Creds'
         dockerImage = ''
         scannerHome = tool 'sonar4.8'
     }
