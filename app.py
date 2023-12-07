@@ -63,7 +63,7 @@ def delete():
                 return "There was an error"
         else:
             return render_template('index.html',
-                                   error='Sorry, the employee does not exist.')
+                                   error='Sorry,the employee does not exist.')
 
 
 # edit page; to edit the information of an employee
@@ -90,7 +90,7 @@ def edit(id):
             return render_template('edit.html', emp=obj)
     else:
         return render_template('edit.html',
-                               error='Sorry, the employee does not exist.')
+                               error='Sorry,the employee does not exist.')
 
 
 if __name__ == '__main__':
